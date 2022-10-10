@@ -112,6 +112,7 @@
             android:layout_margin="@dimen/spacing_normal"
             app:srcCompat="@drawable/ic_gdg"
             android:onClick="@{() -> viewModel.onFabClicked()}"
+            android:backgroundTint="@color/primaryColor"
             />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>
